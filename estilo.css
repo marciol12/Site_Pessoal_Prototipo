@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap");
+
+#cabecalho{
+    background-color: white;
+    margin-bottom: 0px;
+}
 
 nav#menu{
     display: flex;
@@ -7,6 +13,7 @@ nav#menu{
 nav#menu ul{
     list-style: none;
     position: relative;
+    
 }
 nav#menu li{
     display: inline-block;
@@ -15,4 +22,74 @@ nav#menu li{
     font-weight: normal;
     font-size: 20px;
     margin: 15px;
+    background-color: white;
+}
+nav#menu a{
+    text-decoration: none;
+    color:black;
+}
+nav#menu a:hover{
+    color:gray;
+}
+
+#foto{
+    position: relative;
+    width:800px;
+    top: 0px;
+    float: right;
+    margin: auto;
+    margin-right: 10px;
+    padding: 0px;
+}
+#index{
+    position: relative;
+    top:150px;
+    margin-left: 10px;
+    padding: 0px;
+}
+#index h2{
+    font-family: 'Beth Ellen', cursive;
+    margin-bottom: 0px;
+    font-size: 30pt;
+}
+#index p{
+    font-family: monospace;
+    margin-top: 0px;
+    font-size: 10pt;
+}
+#foto-eu{
+    position: relative;
+    height:450px;
+    float: right;
+    margin-right: 500px;
+    margin-left: 20px;
+    
+}
+
+#sobre0{
+    position: absolute;
+    font-family: 'Beth Ellen', cursive;
+    font-size: 30pt;
+
+}
+#sobre1 p{
+    font-family: monospace;
+    position: relative;
+    left: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    text-align: left;
+    top: 150px;
+    font-size: 15px;
+}
+#sobre2 p{
+    font-family: monospace;
+    position: absolute;
+    right: 0px;
+    margin-left: 850px;
+    margin-right: 10px;
+    padding: 0px;
+    text-align: right;
+    font-size: 15px;
+    top: 250px;
 }
