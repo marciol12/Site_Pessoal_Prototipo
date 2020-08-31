@@ -82,40 +82,30 @@ h2{
 
 /*Folha de estilo tela Aboutme.html*/
 
+#bloco{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+h2{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
 #foto-eu{
     position: relative;
-    height:450px;
-    float: right;
-    margin-right: 500px;
-    margin-left: 20px;
+    height:400px;
+    float: left;
+    margin-right: 10px;
 }
-#sobre0{
-    position: absolute;
-
-}
-#sobre1 p{
+p{
     font-family: monospace;
     position: relative;
-    left: 0px;
-    margin-left: 0px;
     padding: 0px;
-    text-align: left;
-    top: 150px;
+    text-align: justify;
     font-size: 15px;
 }
-#sobre2 p{
-    font-family: monospace;
-    position: absolute;
-    right: 0px;
-    margin-left: 870px;
-    margin-right: 10px;
-    padding: 0px;
-    text-align: left;
-    font-size: 15px;
-    top: 250px;
-}
-
-
 /*Folha de estilo tela formulario.html*/
 
 input{
